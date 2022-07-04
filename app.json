@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "ifrn-app",
+    "slug": "ifrn-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
