@@ -9,8 +9,6 @@ import {
     TextButton,
 } from './styles';  
 
-import Input from '../../components/Input';
-
 export default function Login({navigation}){
     return (
         <Container>
