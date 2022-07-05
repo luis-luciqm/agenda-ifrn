@@ -1,9 +1,12 @@
 import React from 'react';
-import { Image } from 'react-native';
+import { Image, Text } from 'react-native';
 
 import { 
     Container,
     TextIfrn,
+    InputStyle,
+    ButtonLogin,
+    TextButton,
 } from './styles';  
 
 import Input from '../../components/Input';
@@ -13,7 +16,11 @@ export default function Login({navigation}){
         <Container>
             <Image source={require('../../img/logo-if.png')} />
             <TextIfrn>Agenda IFRN</TextIfrn>
-            <Input />
+            <InputStyle placeholder="Login" />
+            <InputStyle placeholder="Senha" />
+            <ButtonLogin>
+                <TextButton>Entrar</TextButton>
+            </ButtonLogin>
         </Container>
     )
 }

@@ -7,5 +7,5 @@ export const InputStyle = styled.TextInput`
     border-radius: 5px;
     background-color: #FFFFFF;
     border: 1px solid #E6E6E6;
-    padding-left: 14px
+    padding-left: 14px;
 `;
