@@ -13,3 +13,4 @@ clear
 git status
 
 sleep 3
+clear
