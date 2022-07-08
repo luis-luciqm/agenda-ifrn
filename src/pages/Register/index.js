@@ -19,7 +19,9 @@ export default function Register({navigation}){
             <InputRegister placeholder="Data" />
 
             <ButtonRegister>
-                <TextButtonRegister>Cadastrar</TextButtonRegister>
+                <TextButtonRegister
+                    onPress={() => navigation.navigate('Schedule')}
+                >Cadastrar</TextButtonRegister>
             </ButtonRegister>
 
         </Container>
