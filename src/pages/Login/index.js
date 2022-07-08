@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Text } from 'react-native';
+import { Image, Text, Alert } from 'react-native';
 
 import { 
     Container,
@@ -16,7 +16,8 @@ export default function Login({navigation}){
             <TextIfrn>Agenda IFRN</TextIfrn>
             <InputStyle placeholder="Login" />
             <InputStyle placeholder="Senha" />
-            <ButtonLogin>
+            <ButtonLogin
+            onPress={() => navigation.navigate('Register') }>
                 <TextButton>Entrar</TextButton>
             </ButtonLogin>
         </Container>

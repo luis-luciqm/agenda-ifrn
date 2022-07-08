@@ -8,4 +8,5 @@ export const InputStyle = styled.TextInput`
     background-color: #FFFFFF;
     border: 1px solid #E6E6E6;
     padding-left: 14px;
+    margin-bottom: 20px;
 `;
