@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text, Image } from 'react-native';
 
 import { 
     ScheduleContainer,
@@ -7,6 +7,10 @@ import {
     ViewTexts,
     TextTasks,
     ViewListTasks,
+    ViewTasks,
+    TextTasksList,
+    TextTasksListInactive,
+    ImageTrash,
 } from './styles'; 
 
 export default function Schedule() {
@@ -17,7 +21,15 @@ export default function Schedule() {
                 <TextTasks>Você tem 2 tarefas</TextTasks>
             </ViewTexts>
             <ViewListTasks>
-                
+                <ViewTasks>
+                    <TextTasksList>Tarefa 1</TextTasksList>
+                </ViewTasks>
+                <ViewTasks>
+                    <TextTasksListInactive>Tarefa 2</TextTasksListInactive>
+                    <ImageTrash>
+                        <Image source={require('../../img/delete.png')} />
+                    </ImageTrash>
+                </ViewTasks>
             </ViewListTasks>
         </ScheduleContainer>
     );

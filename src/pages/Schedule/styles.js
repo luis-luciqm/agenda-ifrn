@@ -52,3 +52,44 @@ export const ViewListTasks = styled.View`
     top: 120px;
     height: 84%;
 `;
+
+export const ViewTasks = styled.View`
+    flex-direction: row;
+    left: 0%;
+    right: 0%;
+    top: 6%;
+    bottom: 0%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+
+    background: #C4C4C4 0%;
+    opacity: 0.24;
+`;
+
+export const TextTasksList = styled.Text`
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #0d0d0d;
+`;
+
+export const TextTasksListInactive = styled.Text`
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-decoration-line: line-through;
+
+    /* Feito */
+
+    color: #1DB863;
+`;
+
+export const ImageTrash = styled.View`
+    left: 100%;
+`;
