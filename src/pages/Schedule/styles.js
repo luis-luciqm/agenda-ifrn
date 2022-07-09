@@ -47,8 +47,8 @@ export const TextTasks = styled.Text`
 
 export const ViewListTasks = styled.View`
     background-color: #FFFFFF;
-    border-top-left-radius: 22px;
-    border-top-right-radius: 22px;
+    /* border-top-left-radius: 22px;
+    border-top-right-radius: 22px; */
     top: 120px;
     height: 84%;
 `;
@@ -57,13 +57,27 @@ export const ViewTasks = styled.View`
     flex-direction: row;
     left: 0%;
     right: 0%;
-    top: 6%;
+    top: 12%;
     bottom: 0%;
     height: 60px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     background: #C4C4C4 0%;
+    opacity: 0.24;
+`;
+
+export const ViewTasksChecked = styled.View`
+    flex-direction: row;
+    left: 0%;
+    right: 0%;
+    top: 12%;
+    bottom: 0%;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #FFFFFF 0%;
     opacity: 0.24;
 `;
 
