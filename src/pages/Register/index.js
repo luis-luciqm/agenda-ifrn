@@ -20,7 +20,7 @@ export default function Register({navigation}){
 
             <ButtonRegister>
                 <TextButtonRegister
-                    onPress={() => navigation.navigate('Schedule')}
+                    onPress={() => navigation.navigate('Listar Tarefa')}
                 >Cadastrar</TextButtonRegister>
             </ButtonRegister>
 
