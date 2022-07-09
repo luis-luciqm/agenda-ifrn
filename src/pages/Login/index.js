@@ -17,7 +17,7 @@ export default function Login({navigation}){
             <InputStyle placeholder="Login" />
             <InputStyle placeholder="Senha" />
             <ButtonLogin
-            onPress={() => navigation.navigate('Register') }>
+            onPress={() => navigation.navigate('Teste') }>
                 <TextButton>Entrar</TextButton>
             </ButtonLogin>
         </Container>
