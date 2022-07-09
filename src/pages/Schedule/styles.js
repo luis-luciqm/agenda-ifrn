@@ -84,7 +84,7 @@ export const ViewTasksChecked = styled.View`
 export const TextTasksList = styled.Text`
     font-style: normal;
     font-weight: 800;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 17px;
 
     color: #0d0d0d;
@@ -93,7 +93,7 @@ export const TextTasksList = styled.Text`
 export const TextTasksListInactive = styled.Text`
     font-style: normal;
     font-weight: 800;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 17px;
     /* identical to box height */
 
@@ -101,9 +101,9 @@ export const TextTasksListInactive = styled.Text`
 
     /* Feito */
 
-    color: #1DB863;
+    color: #006600;
 `;
 
 export const ImageTrash = styled.View`
-    left: 100%;
+    
 `;
