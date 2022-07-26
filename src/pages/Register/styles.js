@@ -47,3 +47,12 @@ export const TextButtonRegister = styled.Text`
 
     color: #FFFFFF;
 `;
+
+export const ViewInputPicker = styled.View`
+    display: flex;
+    width: 80%;
+    top: 26px;
+    border: 1px solid #c2b7b6;	
+    border-radius: 5px;
+    color: #c2b7b6;
+`;
